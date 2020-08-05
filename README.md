@@ -79,7 +79,7 @@ Given the `purposeConditional` field should be not only based on the form of an 
     "items":{
         "anyOf":[
             {
-                "$ref":"https://<your-url>/tilt-purpose-vocabulary.schema.json#/definitions/purpose",
+                "$ref":"https://<<<<<<<<<your-url>>>>>>>>>>>>>/tilt-purpose-vocabulary.schema.json#/definitions/purpose",
                 "title":"AnyOf schema",
                 "examples":[
                     "Data is stored until the end of the ordering process."
