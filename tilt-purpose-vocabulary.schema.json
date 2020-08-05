@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "purpose": {
+      "$ref": "#/definitions/purpose"
+    }
+  },
+  "required": [
+    "purpose"
+  ],
+  "definitions": {
+    "purpose": {
+      "type": "string",
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "const": "Apple"
+            },
+            {
+              "enum": [
+                "Cat",
+                "Dog"
+              ]
+            }
+          ]
+        },
+        {
+          "not": {
+            "enum": [
+              "Earth",
+              "Water",
+              "Air",
+              "Fire"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
