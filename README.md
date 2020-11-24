@@ -94,3 +94,6 @@ Given the `purposeConditional` field should be not only based on the form of an 
 
 
 3. Validate your examples, e.g. using [python-tilt](https://github.com/Transparency-Information-Language/python-tilt) or [java-tilt](https://github.com/Transparency-Information-Language/java-tilt).
+
+# License
+[MIT License](LICENSE)
